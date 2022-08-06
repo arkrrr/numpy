@@ -8,7 +8,7 @@ b = np.array([1.5,2.5,6,8])
 c = np.arange(1,10,2)
 
 # membuat linspace
-d = np.linspace(1,10,4)
+d = np.linspace(1,12,6)
 
 #  array multidimensi / matriks
 e = np.array([(1,2,3), (4,5,6) ])
