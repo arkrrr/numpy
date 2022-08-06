@@ -1,13 +1,13 @@
 import numpy as np
 
-a = np.floor(np.random.randn(1,6)*10)
+x = np.floor(np.random.randn(1,6)*10)
 
-print (a)
-print ("nilai max dari a adalah = ",a.max())
-print ("posisi max dari a adalah = ",a.argmax())
-print ("nilai min dari a adalah = ",a.min())
-print ("posisi min dari a adalah = ",a.argmin())
+print (x)
+print ("nilai max dari x adalah = ",x.max())
+print ("posisi max dari x adalah = ",x.argmax())
+print ("nilai min dari x adalah = ",x.min())
+print ("posisi min dari x adalah = ",x.argmin())
 
-print ("mengurutkan nilai a:")
-print (np.sort(a))
-print (np.argsort(a))
+print ("mengurutkan nilai x:")
+print (np.sort(x))
+print (np.argsort(x))
